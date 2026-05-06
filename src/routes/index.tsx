@@ -45,16 +45,7 @@ const milkshakes = [
 
 const WHATSAPP_PHONE = "5568999508822";
 const WHATSAPP_MESSAGE = "Olá! Quero fazer um pedido no Super Chaumas";
-const WHATSAPP = `https://web.whatsapp.com/send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
-
-function openWhatsApp(event: React.MouseEvent<HTMLAnchorElement>) {
-  event.preventDefault();
-  const opened = window.open(WHATSAPP, "_blank", "noopener,noreferrer");
-
-  if (!opened) {
-    window.location.assign(WHATSAPP);
-  }
-}
+const WHATSAPP = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 function Header() {
   return (
@@ -70,7 +61,7 @@ function Header() {
           <a href="#classicos" className="hover:text-secondary transition">Picolés</a>
           <a href="#contato" className="hover:text-secondary transition">Contato</a>
         </nav>
-        <a href={WHATSAPP} onClick={openWhatsApp} target="_blank" rel="noreferrer"
+        <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
            className="rounded-full bg-secondary px-4 py-2 text-xs sm:text-sm font-bold text-secondary-foreground shadow hover:scale-105 transition">
           Pedir agora
         </a>
@@ -97,7 +88,7 @@ function Hero() {
             <a href="#acai" className="rounded-full bg-secondary px-6 py-3 font-bold text-secondary-foreground shadow-lg hover:scale-105 transition">
               Ver Cardápio
             </a>
-            <a href={WHATSAPP} onClick={openWhatsApp} target="_blank" rel="noreferrer"
+            <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
                className="rounded-full border-2 border-secondary px-6 py-3 font-bold text-secondary hover:bg-secondary hover:text-secondary-foreground transition">
               WhatsApp
             </a>
