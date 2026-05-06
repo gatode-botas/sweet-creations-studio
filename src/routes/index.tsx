@@ -43,7 +43,7 @@ const milkshakes = [
   { name: "Milk Chaumas Especial", price: "20,00", desc: "500ml — Nutella ou Doce de Leite." },
 ];
 
-const WHATSAPP = "https://wa.me/5500000000000?text=Olá!%20Quero%20fazer%20um%20pedido%20no%20Super%20Chaumas";
+const WHATSAPP = "https://wa.me/5568999508822?text=Olá!%20Quero%20fazer%20um%20pedido%20no%20Super%20Chaumas";
 
 function Header() {
   return (
