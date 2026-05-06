@@ -18,7 +18,7 @@ const acaiItems = [
   { name: "Açaí G", size: "500ml", price: "25,00", desc: "Sucrilhos, tapioca, chantilly, farinha láctea, amendoim, leite em pó, leite condensado, creme de leite e banana." },
   { name: "Açaí Tropical", size: "500ml", price: "27,00", desc: "Creme de leite, leite condensado, amendoim, kiwi e banana." },
   { name: "Barca de Açaí P", size: "500ml", price: "50,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, pêssego, kiwi e cereja." },
-  { name: "Barca de Açaí G", size: "800ml", price: "55,00", desc: "Versão grandona da Barca completa, perfeita para compartilhar." },
+  { name: "Barca de Açaí G", size: "800ml", price: "55,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, pêssego, kiwi e cereja." },
 ];
 
 const tacas = [
