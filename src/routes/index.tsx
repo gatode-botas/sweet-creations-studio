@@ -216,7 +216,7 @@ function Footer() {
       <div className="mx-auto max-w-6xl px-4 text-center">
         <h2 className="text-3xl font-extrabold">Peça já o seu!</h2>
         <p className="mt-2 text-primary-foreground/80">Atendimento rápido pelo WhatsApp.</p>
-        <a href={WHATSAPP} onClick={openWhatsApp} target="_blank" rel="noreferrer"
+        <a href={WHATSAPP} target="_blank" rel="noopener noreferrer"
            className="mt-6 inline-block rounded-full bg-secondary px-8 py-3 font-extrabold text-secondary-foreground shadow-lg hover:scale-105 transition">
           Falar no WhatsApp
         </a>
@@ -230,7 +230,7 @@ function Footer() {
 
 function FloatingWhatsApp() {
   return (
-    <a href={WHATSAPP} onClick={openWhatsApp} target="_blank" rel="noreferrer" aria-label="WhatsApp"
+    <a href={WHATSAPP} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"
        className="fixed bottom-5 right-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl hover:scale-110 transition">
       <svg viewBox="0 0 32 32" className="h-7 w-7" fill="currentColor">
         <path d="M19.11 17.21c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.6-1.5-1.87-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47l-.52-.01c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.27 0 1.34.97 2.63 1.11 2.81.14.18 1.92 2.93 4.65 4.11.65.28 1.16.45 1.55.58.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32zM16.02 5.33c-5.89 0-10.67 4.78-10.67 10.67 0 1.88.49 3.71 1.42 5.33L5 27l5.78-1.51a10.62 10.62 0 005.24 1.34h.01c5.88 0 10.67-4.78 10.67-10.67 0-2.85-1.11-5.53-3.13-7.55a10.6 10.6 0 00-7.55-3.13z"/>
