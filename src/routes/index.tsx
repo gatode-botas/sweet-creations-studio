@@ -45,7 +45,7 @@ const milkshakes = [
 
 const WHATSAPP_PHONE = "5568999795350";
 const WHATSAPP_MESSAGE = "Olá! Quero fazer um pedido no Super Chaumas";
-const WHATSAPP = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+const WHATSAPP = `https://api.whatsapp.com/send?phone=${WHATSAPP_PHONE}&text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 function Header() {
   return (
