@@ -17,8 +17,8 @@ const acaiItems = [
   { name: "Açaí M", size: "300ml", price: "20,00", desc: "Sucrilhos, farinha de tapioca, amendoim, leite em pó, leite condensado e creme de leite." },
   { name: "Açaí G", size: "500ml", price: "25,00", desc: "Sucrilhos, tapioca, chantilly, farinha láctea, amendoim, leite em pó, leite condensado, creme de leite e banana." },
   { name: "Açaí Tropical", size: "500ml", price: "27,00", desc: "Creme de leite, leite condensado, amendoim, kiwi e banana." },
-  { name: "Barca de Açaí P", size: "500ml", price: "50,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, pêssego, kiwi e cereja." },
-  { name: "Barca de Açaí G", size: "800ml", price: "55,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, pêssego, kiwi e cereja." },
+  { name: "Barca de Açaí P", size: "500ml", price: "50,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, morango, pêssego, kiwi e cereja." },
+  { name: "Barca de Açaí G", size: "800ml", price: "55,00", desc: "Completa: sucrilhos, tapioca, amendoim, leites, chantilly, banana, morango, pêssego, kiwi e cereja." },
 ];
 
 const tacas = [
@@ -38,12 +38,12 @@ const classicos = [
 ];
 
 const milkshakes = [
-  { name: "Milk Shake Tradicional", price: "15,00", desc: "500ml cremoso e clássico." },
-  { name: "Milk Shake com Chantilly", price: "18,00", desc: "500ml com chantilly fresquinho." },
-  { name: "Milk Chaumas Especial", price: "20,00", desc: "500ml — Nutella ou Doce de Leite." },
+  { name: "MILK SHAKE", price: "15,00", desc: "500ml cremoso e clássico." },
+  { name: "MILK SHAKE COM CHANTILLY", price: "18,00", desc: "500ml com chantilly fresquinho." },
+  { name: "MILK CHAUMAS", price: "20,00", desc: "500ml — Nutella ou Doce de Leite." },
 ];
 
-const WHATSAPP_PHONE = "5568999508822";
+const WHATSAPP_PHONE = "5568999795350";
 const WHATSAPP_MESSAGE = "Olá! Quero fazer um pedido no Super Chaumas";
 const WHATSAPP = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
@@ -157,7 +157,7 @@ function TacasSection() {
   return (
     <section id="tacas" className="py-16">
       <div className="mx-auto max-w-6xl px-4">
-        <SectionTitle kicker="Sobremesas" title="Taças & Especiais" />
+        <SectionTitle kicker="Sobremesas" title="Taças Especiais" />
         <div className="grid gap-8 lg:grid-cols-[1fr_1.2fr] items-center">
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-primary/20 blur-3xl" />
